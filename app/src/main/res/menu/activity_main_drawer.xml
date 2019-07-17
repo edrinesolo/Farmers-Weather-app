@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/weather"
+            android:title="Weather" />
+
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <!-- "file" submenu -->
+
+        <item
+            android:id="@+id/farm"
+            android:title="Farming Info" />
+        <item
+            android:id="@+id/inquire"
+            android:title="Suggestions" />
+
+
+    </group>
+
+
+</menu>
+
+
+
+
+
+

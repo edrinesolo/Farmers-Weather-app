@@ -1,0 +1,351 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="currentlocation.androstock.com.farmersweather.fragment.CropsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/crop_header_1"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:id="@+id/crop_1"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_1"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/crop_header_1"
+            />
+        <TextView
+            android:id="@+id/crop_header_2"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_2"
+            android:layout_below="@+id/crop_1"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/crop_2"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_2"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_2"
+            android:layout_alignParentStart="true"
+             />
+        <TextView
+            android:id="@+id/crop_header_3"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_3"
+            android:layout_below="@+id/crop_2"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/crop_3"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_3"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_3"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_4"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_4"
+            android:layout_below="@+id/crop_3"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_4"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_4"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_4"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_5"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_5"
+            android:layout_below="@+id/crop_4"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_5"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_5"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_5"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_6"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_6"
+            android:layout_below="@+id/crop_5"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_6"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_6"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_6"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_7"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_7"
+            android:layout_below="@+id/crop_6"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_7"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_7"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_7"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_8"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_8"
+            android:layout_below="@+id/crop_7"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/crop_8"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_8"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_8"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_9"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_9"
+            android:layout_below="@+id/crop_8"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_9"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_9"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_9"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_10"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_10"
+            android:layout_below="@+id/crop_9"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_10"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_10"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_10"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_11"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_11"
+            android:layout_below="@+id/crop_10"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_11"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_11"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_11"
+            android:layout_alignParentStart="true"
+            />
+
+        <TextView
+            android:id="@+id/crop_header_12"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_12"
+            android:layout_below="@+id/crop_11"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_12"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_12"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_12"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_13"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_13"
+            android:layout_below="@+id/crop_12"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_13"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_13"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_13"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_14"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_14"
+            android:layout_below="@+id/crop_13"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_14"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_14"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_14"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_15"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_15"
+            android:layout_below="@+id/crop_14"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_15"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_15"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_15"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/crop_header_16"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_header_16"
+            android:layout_below="@+id/crop_15"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/crop_16"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_info_16"
+            android:textSize= "20sp"
+            android:layout_below="@+id/crop_header_16"
+            android:layout_alignParentStart="true"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
